@@ -48,8 +48,7 @@ The system incorporates a rule-based system along with a Decision Tree model, wh
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/mineguard.git
-cd mineguard
+git clone https://github.com/shauryaagrawal02/MineGuard-Smart-Mining-Safety-Monitoring-System.git cd MineGuard-Smart-Mining-Safety-Monitoring-System
 ```
 
 ### 2. Install dependencies
@@ -61,7 +60,7 @@ pip3 install numpy pandas scikit-learn
 ### 3. Run the project
 
 ```bash
-python3 MineGuard:Mining Safety Monitoring System.py
+python3 Mining_Safety_Monitor.py
 ```
 
 ---
