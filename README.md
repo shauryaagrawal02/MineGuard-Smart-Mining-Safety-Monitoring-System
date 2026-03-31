@@ -1,18 +1,18 @@
-# MineGuard: AI-Based Mining Safety Monitoring System
+# MineGuard: An AI-Based Mining Safety Monitoring System
 
 ## Overview
 
-MineGuard is a machine learning-based safety monitoring system designed to assess risk levels in mining environments. It analyzes environmental parameters such as methane gas level, temperature, humidity, and mine depth to classify conditions into LOW, MEDIUM, or HIGH risk.
+MineGuard is a machine learning-based safety monitoring system, which can effectively assess risk levels in a mining environment. The system takes various environmental parameters, such as methane gas level, temperature, humidity, and depth of the mine, and classifies them as LOW, MEDIUM, or HIGH risk levels.
 
-The system combines a rule-based approach with a Decision Tree model to provide intelligent and explainable predictions. It also includes critical safety conditions where extreme values immediately result in HIGH risk.
+The system incorporates a rule-based system along with a Decision Tree model, which helps in intelligent decision-making.
 
 ---
 
 ## Features
 
-* Machine learning-based risk prediction using Decision Tree
+* Machine learning-based risk prediction using a Decision Tree model
 * Rule-based system for comparison
-* Automatic HIGH risk detection for extreme conditions
+* Automatic HIGH risk level detection for extreme conditions
 * Model evaluation using accuracy and confusion matrix
 * Feature importance analysis
 * Synthetic dataset generation for training
@@ -21,15 +21,16 @@ The system combines a rule-based approach with a Decision Tree model to provide 
 
 ## How It Works
 
-1. A synthetic dataset is generated using realistic mining conditions
-2. A Decision Tree model is trained on this dataset
-3. The model learns patterns between environmental parameters and risk levels
-4. The user inputs real-time values
-5. The system predicts risk using:
+1. Synthetic dataset generation using realistic conditions in a mine
+2. Decision Tree model training on a synthetic dataset
+3. Model learning from a dataset, where risk levels are associated with various environmental parameters
+4. User input of real-time data
+5. Predict risk levels using:
 
    * Machine learning model
-   * Rule-based logic
-6. Extreme conditions (e.g., very high temperature or gas levels) directly result in HIGH risk
+   * Rule-based system
+* Rule-based logic
+6. Extreme conditions such as very high temperature or gas levels will directly cause HIGH risk
 
 ---
 
@@ -60,7 +61,7 @@ pip3 install numpy pandas scikit-learn
 ### 3. Run the project
 
 ```bash
-python3 mineguard.py
+python3 MineGuard:Mining Safety Monitoring System.py
 ```
 
 ---
@@ -91,4 +92,4 @@ python3 mineguard.py
 
 ## Note
 
-This project is developed not only for academic purposes but also to emphasize the importance of safety in mining environments. Hazardous conditions can lead to serious risks, and this system aims to promote awareness and preventive measures.
+This project is developed not only for academic purposes but also to highlight the need for safety in the mining environment. The risk of hazardous conditions can cause serious risks, and this system is intended to raise awareness of preventive measures.
